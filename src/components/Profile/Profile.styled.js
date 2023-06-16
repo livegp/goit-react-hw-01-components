@@ -10,6 +10,7 @@ export const Container = styled.div`
   background-color: #fff;
   box-shadow: 0 1px 6px rgb(46 47 66 / 8%), 0 1px 1px rgb(46 47 66 / 16%),
     0 2px 1px rgb(46 47 66 / 8%);
+  overflow: hidden;
 `;
 
 export const Description = styled.div``;

@@ -13,6 +13,7 @@ export const Item = styled.li`
   box-shadow: 0 1px 6px rgb(46 47 66 / 8%), 0 1px 1px rgb(46 47 66 / 16%),
     0 2px 1px rgb(46 47 66 / 8%);
   padding: 10px 20px;
+  overflow: hidden;
 `;
 
 export const Status = styled.span`
