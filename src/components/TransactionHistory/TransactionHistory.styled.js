@@ -4,6 +4,7 @@ export const Table = styled.table`
   margin: 0 auto;
   color: #3b5998;
   width: 100%;
+  border-radius: 10px;
   text-align: center;
   box-shadow: 0 1px 6px rgb(46 47 66 / 8%), 0 1px 1px rgb(46 47 66 / 16%),
     0 2px 1px rgb(46 47 66 / 8%);
