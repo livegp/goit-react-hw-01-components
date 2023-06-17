@@ -1,7 +1,6 @@
 import { Container } from 'components/App/App.styled';
 import FriendList from 'components/FriendList/FriendList';
 import Profile from 'components/Profile/Profile';
-// import React from 'react';
 import Statistics from 'components/Statistics/Statistics';
 import TransactionHistory from 'components/TransactionHistory/TransactionHistory';
 import data from 'data/data';

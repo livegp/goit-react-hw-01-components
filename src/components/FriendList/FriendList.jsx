@@ -1,7 +1,6 @@
 import { Container } from './FriendList.styled';
 import FriendListItem from './FriendListItem/FriendListItem';
 import PropTypes from 'prop-types';
-import React from 'react';
 
 const FriendList = ({ friends }) => (
   <Container>

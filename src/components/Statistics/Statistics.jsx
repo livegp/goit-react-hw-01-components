@@ -6,7 +6,6 @@ import {
   Title,
 } from 'components/Statistics/Statistics.styled';
 import PropTypes from 'prop-types';
-import React from 'react';
 
 const Statistics = ({ stats, title }) => {
   return (

@@ -10,7 +10,6 @@ import {
   Tag,
 } from 'components/Profile/Profile.styled';
 import PropTypes from 'prop-types';
-import React from 'react';
 
 const Profile = ({ user }) => {
   const { username, tag, location, avatar, stats } = user;

@@ -3,7 +3,6 @@ import {
   Table,
 } from 'components/TransactionHistory/TransactionHistory.styled';
 import PropTypes from 'prop-types';
-import React from 'react';
 
 const TransactionHistory = ({ items }) => {
   return (
