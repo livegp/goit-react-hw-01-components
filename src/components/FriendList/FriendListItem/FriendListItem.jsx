@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import { Avatar, Item, Name, Status } from './FriendListItem.styled';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const FriendListItem = ({ avatar, name, status }) => {
   return (

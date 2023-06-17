@@ -1,6 +1,12 @@
-import React from 'react';
+import {
+  Container,
+  Label,
+  List,
+  Percentage,
+  Title,
+} from 'components/Statistics/Statistics.styled';
 import PropTypes from 'prop-types';
-import { Container, Label, List, Percentage, Title } from './Statistics.styled';
+import React from 'react';
 
 const Statistics = ({ stats, title }) => {
   return (
@@ -19,7 +25,6 @@ const Statistics = ({ stats, title }) => {
 };
 
 Statistics.propTypes = {
-  title: PropTypes.string.isRequired,
   stats: PropTypes.arrayOf(
     PropTypes.exact({
       id: PropTypes.string.isRequired,
@@ -27,6 +32,7 @@ Statistics.propTypes = {
       percentage: PropTypes.number.isRequired,
     })
   ),
+  title: PropTypes.string.isRequired,
 };
 
 export default Statistics;

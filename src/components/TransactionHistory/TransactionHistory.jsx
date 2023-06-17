@@ -1,6 +1,9 @@
-import React from 'react';
+import {
+  Head,
+  Table,
+} from 'components/TransactionHistory/TransactionHistory.styled';
 import PropTypes from 'prop-types';
-import { Head, Table } from './TransactionHistory.styled';
+import React from 'react';
 
 const TransactionHistory = ({ items }) => {
   return (
@@ -26,12 +29,12 @@ const TransactionHistory = ({ items }) => {
 };
 
 TransactionHistory.propTypes = {
-  stats: PropTypes.arrayOf(
+  items: PropTypes.arrayOf(
     PropTypes.exact({
-      id: PropTypes.string.isRequired,
-      type: PropTypes.string.isRequired,
       amount: PropTypes.string.isRequired,
       currency: PropTypes.string.isRequired,
+      id: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
     })
   ),
 };
