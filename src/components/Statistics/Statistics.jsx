@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
 const Statistics = ({ stats, title }) => {
   return (
     <Container>
-      <Title>{title}</Title>
+      {title && <Title>{title}</Title>}
       <List>
         {stats.map(({ id, label, percentage }) => (
           <li key={id}>
@@ -31,7 +31,7 @@ Statistics.propTypes = {
       percentage: PropTypes.number.isRequired,
     })
   ),
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 };
 
 export default Statistics;
